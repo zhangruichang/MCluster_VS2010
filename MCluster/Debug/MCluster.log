@@ -1,0 +1,52 @@
+﻿生成启动时间为 2015/1/26 10:03:35。
+     1>项目“E:\FourierTransformation\Data\MCluster\MCluster\MCluster.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\MCluster.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\MCluster.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Skwic.cpp
+         Skwic.cpp
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(21): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(168): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(170): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(210): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(212): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(271): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(273): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(319): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(333): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(335): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(352): warning C4101: “i”: 未引用的局部变量
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(354): warning C4101: “dist”: 未引用的局部变量
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(416): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(418): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(485): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+     1>e:\fouriertransformation\data\mcluster\mcluster\skwic.cpp(487): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Skwic::DistType”
+         Main.cpp
+     1>e:\fouriertransformation\data\mcluster\mcluster\main.cpp(119): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+     1>e:\fouriertransformation\data\mcluster\mcluster\main.cpp(88): warning C4715: “getIndex”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MCluster.exe.embed.manifest.res" Debug\MCluster_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\FourierTransformation\Data\MCluster\Debug\MCluster.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MCluster.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\FourierTransformation\Data\MCluster\Debug\MCluster.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\FourierTransformation\Data\MCluster\Debug\MCluster.lib" /MACHINE:X86 Debug\MCluster.exe.embed.manifest.res
+         Debug\Main.obj
+         Debug\Skwic.obj
+       Manifest:
+         正在删除文件“Debug\MCluster.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MCluster.exe.embed.manifest" /manifest Debug\MCluster.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MCluster.exe.embed.manifest.res" Debug\MCluster_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\FourierTransformation\Data\MCluster\Debug\MCluster.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MCluster.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\FourierTransformation\Data\MCluster\Debug\MCluster.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\FourierTransformation\Data\MCluster\Debug\MCluster.lib" /MACHINE:X86 Debug\MCluster.exe.embed.manifest.res
+         Debug\Main.obj
+         Debug\Skwic.obj
+         MCluster.vcxproj -> E:\FourierTransformation\Data\MCluster\Debug\MCluster.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MCluster.unsuccessfulbuild”。
+         正在对“Debug\MCluster.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\FourierTransformation\Data\MCluster\MCluster\MCluster.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.58
